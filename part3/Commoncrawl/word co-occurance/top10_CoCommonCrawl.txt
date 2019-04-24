@@ -1,0 +1,10 @@
+manual-manual	43554067
+manual-download	15388292
+download-manual	15382238
+descript-manual	14285814
+avail-manual	14273923
+detail-manual	14272762
+manual-detail	14250325
+manual-avail	14245758
+manual-descript	14243325
+download-download	5870481

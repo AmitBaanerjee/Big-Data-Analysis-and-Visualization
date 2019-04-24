@@ -1,0 +1,10 @@
+ice-hockey	1417
+basebal-game	626
+hockey-ice	396
+basebal-team	339
+soccer-game	327
+basketbal-player	324
+soccer-team	308
+play-basketbal	294
+play-soccer	271
+basketbal-team	240

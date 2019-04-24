@@ -1,0 +1,10 @@
+new-york	2139
+game-game	1983
+year-year	1396
+team-team	1276
+game-season	1235
+season-game	1225
+year-old	1220
+first-game	1171
+team-game	1043
+season-season	1041

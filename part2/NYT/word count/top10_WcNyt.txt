@@ -1,0 +1,10 @@
+year	8853
+game	8459
+one	7444
+team	6864
+time	6566
+first	6171
+season	5943
+like	5526
+two	5395
+new	5372

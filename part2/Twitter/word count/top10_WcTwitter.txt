@@ -1,0 +1,10 @@
+basebal	4088
+basketbal	3736
+soccer	3504
+game	2211
+hockey	2135
+ice	2038
+play	1500
+team	1498
+player	1024
+today	943
