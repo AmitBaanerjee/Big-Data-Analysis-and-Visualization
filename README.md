@@ -73,3 +73,4 @@ For generating the final word cloud, we drag the words dimension into “Text”
 We created a static website using HTML, CSS, JavaScript and jQuery, which displays all the word clouds created with the Tableau desktop software. This website acts as a functional data product for our project.
 We hosted this website by making use of Static Hosting feature of the S3 Bucket. Please find the below mentioned link of our website.
 Link: http://websitelab2.s3-website-us-east-1.amazonaws.com/
+<img src="Webpage/images/ss.png">
