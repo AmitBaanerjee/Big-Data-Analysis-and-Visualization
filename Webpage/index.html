@@ -1,0 +1,94 @@
+<html>
+<head><style>
+.box {
+  
+  display: none;
+ 
+}
+.box img {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+</head> 
+<body style="background-image: linear-gradient(to right,Bisque,Brown);">
+<h1 style="color:Maroon"align=center>Data Aggregation, Big Data Analysis and Visualization</h1>
+<div align=center>
+  <select>
+    <option style="display: none;">Select to View </option>
+    <option value="Oone">Word Count Cloud for Twitter </option>
+    <option value="Otwo">Word Co-ocurrence Cloud for Twitter</option>
+    <option value="Othree">Word Count Cloud for NYTimes</option>
+    <option value="Ofour">Word Co-ocurrence Cloud for NYTimes</option>
+    <option value="Ofive">Word Count Cloud for CommonCrawl</option>
+    <option value="Osix">Word Co-ocurrence Cloud for CommonCrawl</option>
+  </select>
+</div>
+<p></p>
+<div></div>
+<div align=center>
+<div class="one box">
+  <!--<h3><strong>Word Count Twitter</strong></h3>-->
+  <img src="./images/WordCount_Twitter.png" />
+</div>
+<div class="two box">
+  <!--<h3><strong>Word Co-occurrence Twitter</strong></h3>-->
+  <img src="./images/WordCo-occurrence_Twitter.png" />
+</div>
+<div class="three box">
+  <!--<h3><strong>Word Count NYTimes</strong></h3>-->
+  <img src="./images/WordCount_NYTimes.png" />
+</div>
+<div class="four box">
+   <!--<h3><strong>Word Co-occurrence NYTimes</strong></h3>-->
+  <img src="./images/WordCo-occurrence_NYTimes.png" />
+</div>
+<div class="five box">
+<!--<h3><strong>Word Count CommmonCrawl</strong></h3>-->
+  <img src="./images/WordCount_CommonCrawl.png" />
+</div>
+<div class="six box">
+   <!--<h3><strong>Word Co-occurrence CommmonCrawl</strong></h3>-->
+  <img src="./images/WordCo-occurrence_CommonCrawl.png" />
+</div>
+</div>
+</body>
+
+<script>
+  $(document).ready(function() {
+  $("select").change(function() {
+    $("select option:selected").each(function() {
+      if ($(this).attr("value") == "Oone") {
+        $(".box").hide();
+        $(".one").show();
+      }
+      if ($(this).attr("value") == "Otwo") {
+        $(".box").hide();
+        $(".two").show();
+      }
+      if ($(this).attr("value") == "Othree") {
+        $(".box").hide();
+        $(".three").show();
+      }
+      if ($(this).attr("value") == "Ofour") {
+        $(".box").hide();
+        $(".four").show();
+      }
+      if ($(this).attr("value") == "Ofive") {
+        $(".box").hide();
+        $(".five").show();
+      }
+      if ($(this).attr("value") == "Osix") {
+        $(".box").hide();
+        $(".six").show();
+      }
+    });
+  }).change();
+});
+</script>
+
+</html>
